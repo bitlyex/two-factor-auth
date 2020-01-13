@@ -31,9 +31,9 @@
 
       <div class="form-group">
         <%= f.submit "Update", class: 'btn btn-lg btn-block btn-primary' %>
-        <%= link_to "#{@user.otp_module_enabled? ? 'Disable' : 'Enable'} Two Factor", 
-                    '#two_factor', 
-                    data: { toggle: :modal }, 
+        <%= link_to "#{@user.otp_module_enabled? ? 'Disable' : 'Enable'} Two Factor",
+                    '#two_factor',
+                    data: { toggle: :modal },
                     class: 'btn btn-lg btn-block btn-info' %>
       </div>
     <% end %>
