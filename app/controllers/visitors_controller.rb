@@ -6,4 +6,10 @@ class VisitorsController < ApplicationController
 
   def protected
   end
+
+  def update
+  end
+
+  def destroy
+  end
 end
